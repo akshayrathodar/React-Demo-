@@ -26,7 +26,7 @@ class Cardlist extends React.Component {
                   <h6 className="card-subtitle mb-2 text-muted">{data.price}</h6>
                   <p className="card-text">{data.uom}</p>
                   <button className="card-link btn btn-primary" onClick={()=>{this.handleClick(data)}}>Add Me</button>
-                  <a href="#" className="card-link">Another link</a>
+                  
                 </div>
               </div>
             ))}
